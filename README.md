@@ -118,7 +118,7 @@ Vous pouvez ensuite adapter selon vos besoins (Voir § _Les fonctions du script_
 
 ## Résumé en image
 
-![Installation caméra](asset\nikya-ucam-sreen1.png)
-![Périphérique plugin](asset\nikya-ucam-sreen2.png)
-![Commandes générés](asset\nikya-ucam-sreen3.png)
-![Interface](asset\nikya-ucam-sreen4.png)
+![Installation caméra](asset/nikya-ucam-sreen1.png)
+![Périphérique plugin](asset/nikya-ucam-sreen2.png)
+![Commandes générés](asset/nikya-ucam-sreen3.png)
+![Interface](asset/nikya-ucam-sreen4.png)
