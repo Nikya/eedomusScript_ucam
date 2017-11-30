@@ -7,9 +7,9 @@
     "creation_date": "2017-11-29",
     "modification_date": "2017-11-29",
     "author": "<a href='https://github.com/Nikya' target='_blank'>Nikya</a>",
-    "description_fr": "Demander à une caméra de prendre une photo (Snapshot), puis sauvegarde FTP. (Compatible avec les cameras disposants d'une URL de Snapshot) (<a target='_blank' href='https://github.com/Nikya/eedomusScript_ucam'>Documentation</a>)",
-    "description_en": "Ask to a camera to take a picture (Snapshot), then FTP saving. (Compatible with cameras with a Snapshot URL) (<a target='_blank' href='https://github.com/Nikya/eedomusScript_ucam'>Documentation</a>)",
-    "forum_link": "http://forum.eedomus.com/viewtopic.php?f=50&t=3330xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "description_fr": "Demander à une caméra de prendre une photo (Snapshot), puis la sauvegarder en FTP. Compatible avec les cameras disposants d'une URL de Snapshot (<a target='_blank' href='https://github.com/Nikya/eedomusScript_ucam'>Documentation</a>)",
+    "description_en": "Ask to a camera to take a picture (Snapshot), then save it by FTP. Compatible with cameras with a Snapshot URL (<a target='_blank' href='https://github.com/Nikya/eedomusScript_ucam'>Documentation</a>)",
+    "forum_link": "http://forum.eedomus.com/viewtopic.php?f=50&t=6210",
     "parameters": [
         {
             "parameter": "help_url",
@@ -46,7 +46,7 @@
             "device_id": "ucam",
             "module_id": "41",
             "type": "http",
-            "name_fr": "Snapshot cam",
+            "name_fr": "Commande de caméra universelle",
             "icon": "nikya_ucam.png",
             "utilisation_id": "43",
             "parameters": {
@@ -58,19 +58,19 @@
             "values": [
                 {
                     "value": "0",
-                    "description": "3 photos séparés de 1 seconde",
+                    "description": "3 photos séparées de 1 seconde",
                     "icon": "nikya_ucam.png",
                     "http_url": "http://localhost/script/",
                     "http_type": "GET",
-                    "http_params": "?exec=ucam.php&snapurl=[VAR1]&ftptarget=[VAR2]&snapcount=3&snapinterval=1"
+                    "http_params": "?exec=ucam.php&ftptarget=[VAR2]&snapcount=3&snapinterval=1&urlsnap=[VAR1]"
                 },
                 {
                     "value": "1",
-                    "description": "5 photos séparés de 2 secondes",
+                    "description": "5 photos séparées de 2 secondes",
                     "icon": "nikya_ucam.png",
                     "http_url": "http://localhost/script/",
                     "http_type": "GET",
-                    "http_params": "?exec=ucam.php&snapurl=[VAR1]&ftptarget=[VAR2]&snapcount=5&snapinterval=2"
+                    "http_params": "?exec=ucam.php&ftptarget=[VAR2]&snapcount=5&snapinterval=2&urlsnap=[VAR1]"
                 }
             ]
         }
