@@ -15,19 +15,25 @@
             "parameter": "help_url",
             "description": "Documentation",
             "xtype": "displayfield",
-            "field": "style: 'padding: 3px;', value: '<a target=\\'_blank\\' href=\\'https://github.com/Nikya/eedomusScript_ucam\\'>https://github.com/Nikya/eedomusScript_ucam</a>'"
+            "field": "style: 'padding: 3px;', value: '<a target=\\'_blank\\' href=\\'https://github.com/Nikya/eedomusScript_ucam\\'>Github/Nikya/ucam</a>'"
+        },
+        {
+            "parameter": "help_encode",
+            "description": "Utilitaires d'encodage",
+            "xtype": "displayfield",
+            "field": "style: 'padding: 3px;', value: '<a target=\\'_blank\\' href=\\'https://www.google.fr/search?q=url+encode+online&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&dcr=0&ei=Qd0fWq3DCen-8AfprbvYDA\\'>URL encode online</a>'"
         },
         {
             "parameter": "urlsnap",
-            "description": "URL de Snap de la caméra (URL encodée)",
+            "description": "URL de Snap de la caméra (URL à encoder)",
             "xtype": "textfield",
-            "field": "width:130, allowBlank:false"
+            "field": "allowBlank:false"
         },
         {
             "parameter": "ftptarget",
-            "description": "Information de FTP (Format user:password@server)",
+            "description": "Information de FTP (user:password@server)",
             "xtype": "textfield",
-            "field": "width:130, allowBlank:false, regex:/(.+):(.+)@(.+)/, regexText:'Format attendue 'user:password@server'"
+            "field": "allowBlank:false, regex:/(.+):(.+)@(.+)/, regexText:'Format attendue \\'user:password@server\\' ' "
         }
     ],
     "scripts": [
