@@ -57,7 +57,7 @@ Depuis le portail _eedomus_ sélectionner :
 - `Camera - Autre`
 
 Ce genre de périphérique va vous fournir une _caméra virtuelle_, reliée à un FTP eedomus.  
-Son principe est que chaque photo envoyée sur le FPT de cette caméra mettra à jour son visuel.  
+Son principe est que chaque photo envoyée sur le FTP de cette caméra mettra à jour son visuel.  
 En complément vous pouvez également fournir l'URL du flux en direct de la caméra, si vous la connaissez, dans `Paramètres Expert` > `Liens vers l'image du direct`  
 
 A cette étape, vous devez également noter les informations de FTP à réutiliser ultérieurement (URL, Login, Mot de passe).
@@ -106,8 +106,8 @@ Vous pouvez ensuite adapter selon vos besoins (Voir § _Les fonctions du script_
 ### Paramètres
 
 - **ftptarget** : Informations du FTP cible au format `user:password@server`
-- **snapcount** : Nombre de photos à sauvegarder
-- **snapinterval** : Temps d'attente, en seconde, entre chaque photo
+- **snapcount** : Nombre de photos à sauvegarder. Optionnel, valeur par défaut 1
+- **snapinterval** : Temps d'attente, en seconde, entre chaque photo. Optionnel, valeur par défaut 1.
 
 ### Résultat
 
