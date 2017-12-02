@@ -1,6 +1,6 @@
 # eedomus script : uCam
 
-<img src="asset\nikya_ucam.svg" alt="uCam Logo" style="max-width: 150px;"/>
+![uCam Logo](dist/img/nikya_ucam.png "Nikya uCam Logo") 
 
 * Plugin version : 1.0
 * Origine : [GitHub/Nikya/uCam](https://github.com/Nikya/eedomusScript_ucam "Origine sur GitHub")
