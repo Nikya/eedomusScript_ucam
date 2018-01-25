@@ -52,7 +52,7 @@ function sdk_main() {
 			$content = httpQuery($urlSnap);
 			$res['snapshot'][$i]['snap']['success'] = $content != null;
 			$res['snapshot'][$i]['snap']['content'] = substr($content, 0, 50) . '...';
-			$r = sdk_ftpUpload($aFtpTarget, $content);
+			$r = sdk_ftpUpload($aFtpTarget, $content, $i);
 			$res['snapshot'][$i]['ftpupload']['success'] = $r != null;
 			$res['snapshot'][$i]['ftpupload']['content'] = $r;
 			usleep($snapInterval*1000*1000);
@@ -93,13 +93,13 @@ function sdk_preset($urlPreset, $presetId) {
 /*******************************************************************************
 * Envoie du contenue par FTP
 */
-function sdk_ftpUpload($aFtpTarget, $content) {
+function sdk_ftpUpload($aFtpTarget, $content, $i) {
 	return ftpUpload(
 			$aFtpTarget['server'],
 			$aFtpTarget['user'],
 			$aFtpTarget['pwd'],
 			$content,
-			'time_fetch_box.jpg'
+			'time_fetch_box_'.$i.'.jpg'
 		);
 }
 
