@@ -1,8 +1,8 @@
 # eedomus script : uCam
 
-![uCam Logo](dist/img/nikya_ucam.png "Nikya uCam Logo") 
+![uCam Logo](dist/img/nikya_ucam.png "Nikya uCam Logo")
 
-* Plugin version : 1.0
+* Plugin version : 1.1
 * Origine : [GitHub/Nikya/uCam](https://github.com/Nikya/eedomusScript_ucam "Origine sur GitHub")
 
 ## Description
